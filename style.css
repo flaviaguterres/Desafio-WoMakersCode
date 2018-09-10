@@ -1,0 +1,176 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+a:hover {
+    color: #C22F2F;
+}
+
+/*  HEADER */
+
+header {
+    background-color: #EBECED;
+    text-align: center; 
+    padding: 20px 10px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h1 { 
+    color: #C22F2F;
+}
+
+h3 {
+    color: #4B4B4B;
+}
+
+/* SECTION TECH, ASIDE SOCIAL-COMMUNITIES */
+
+.tech {
+    padding: 20px 10px 15px;
+}
+
+.social-communities {
+    padding: 0 10px 0;
+}
+
+.tech h1, .tech-flex-1, .tech ol:not(:last-child), .social-media h1, .social-media ol, .communities h1, .communities ol {
+    margin-bottom: 15px;
+}
+
+.tech ol li, .social-media ol li, .communities ol li {
+    margin-bottom: 5px;
+    color: #4B4B4B
+}
+
+/*  .TECH-LIKE E PROGRESS BAR */
+
+.tech-like li, .tech-learn li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+progress {
+    margin-right: 25%;
+}
+
+  /*  ICONS */
+
+.icons li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.fab {
+    font-size: 20px;
+    width: 20px;
+    margin: 0 5px 5px 0;
+    color: #C22F2F;
+}
+
+/*  MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4.5vw;
+    }
+    
+    h3 {
+        font-size: 3.5vw;
+    }
+    
+    li { 
+        font-size: 3vw;
+    }
+    
+    progress {
+        margin-right: 50%;
+    }
+}
+
+@media (min-width: 970px) {
+    img {
+        width: 10%;
+    } 
+    
+    h1 {
+        font-size: 2.5vw;
+    }
+    
+    h3 {
+        font-size: 2vw;
+    }
+    
+    li { 
+        font-size: 1vw;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .tech {
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        height: auto;
+    }
+    
+    .tech-flex-1, .tech-flex-2 {
+        width: 50%;
+    }
+    
+    .tech, .social-communities {
+        border: 1px solid #EBECED; 
+        padding: 30px 20px;
+    }
+    
+    .tech h1, .social-communities h1 {
+        font-size: 2vw;
+    }
+
+    progress {
+        margin-right: 50%;
+    }
+    
+    .social-communities {
+        width: 25%; 
+        height: auto;
+        margin-right:10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
